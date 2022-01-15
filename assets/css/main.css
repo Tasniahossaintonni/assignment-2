@@ -1,0 +1,327 @@
+.header_section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.header_section_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{}
+.header_logo p {
+    font-size: 20px;
+    color: var(--primarycolor);
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 0.2px;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.header_nav {
+    display: none;
+}
+.header_nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.header_nav ul li{}
+.header_nav ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primarycolor);
+}
+.header_nav ul li i{}
+.header_card{}
+.header_card span {
+    font-size: 25px;
+}
+.bennar_section{}
+.bennar_section_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.bennar_content {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.bennar_title {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 800;
+    color: var(--primarycolor);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.bennar_subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    color: var(--primarycolor);
+    margin-bottom: 30px;
+}
+.bennar_btn {
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--secodaryColor);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.bennar_btn:hover{
+    background-color: dodgerblue;
+}
+.bennar_btn span{
+    margin-left: 10px;
+}
+.bennar_right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    background-image: url(../image/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bennar_image {
+    width: 100%;
+}
+.bennar_image img{
+    width: 100%;
+}
+.product_section{
+    padding: 100px 0px 50px 0px;
+}
+.product_section_content{}
+.product_section_wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.product_image{}
+.product_image img{
+    width: 100%;
+}
+.image_caption {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--primarycolor);
+}
+.product_price {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primarycolor);
+}
+.product_star{}
+.product_star ul{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.product_star ul li{}
+.product_star ul li a{
+    color: var(--primarycolor);
+    font-weight: 600;
+    font-size: 11px;
+}
+.product_star ul li i{
+    color: gold;
+}
+.product_reveiw{}
+.product_reveiw ul{}
+.product_reveiw ul li{}
+.product_reveiw ul li a{
+    color: var(--textColor);
+    font-size: 14px;
+    font-weight: 600;
+}
+.product_item {
+    box-shadow: 0px 0px 60px rgb(0 0 0 / 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.feture_section{
+    padding: 50px 0px;
+}
+.feture_section_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20;
+}
+.feture_right {
+    width: 100%;
+}
+.ferure_image_right{}
+.ferure_image_right img{
+    width: 100%;
+}
+.feture_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.feture_heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 20px;
+    color: var(--primarycolor);
+}
+.feture_subheading{
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.feture_btn {
+    outline: none;
+    border: none;
+    color: var(--white);
+    background-color: var(--secodaryColor);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 40px;
+    margin-top: 25px;
+}
+.feture_btn:hover{
+    background-color: dodgerblue;
+}
+.feture_btn span{
+    margin-left: 10px;
+}
+.footer_section {
+    background-color: #0b0e25;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.footer_copy,
+.footer_reserved{
+    font-size: 14px;
+    color: #e9e6e6;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.footer_social_icon {
+    margin-top: 10px;
+}
+.footer_social_icon ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer_social_icon ul li{}
+.footer_social_icon ul li i {
+    height: 40px;
+    color: #FFF;
+    width: 40px;
+    font-size: 16px;
+    background-color: rgb(255 255 255 / 10%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========================
+==========================
+    our product section
+==========================
+==========================*/
+
+.our_product_section{
+    margin: 100px 0px;
+}
+.poruduct_content{}
+.product_section_title {
+    text-align: center !important;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+.product_paragraph{
+    text-align: center !important;
+}
+.product_subtitle {
+    color: var(--textcolor);
+}
+.product_section_text{
+    width: 100% !important;
+}
+.product_item8{
+    text-align: center !important;
+    box-shadow: rgb(148 150 156 / 15%) 0px 5px 25px;
+    padding: 60px 30px;
+}
+.product_item_btn{
+    display: inline-block;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(13, 165, 251);
+}
+.product_btn_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_item_text {
+    padding: 20px 0px;
+    line-height: 1.5;
+}
+.svg_arrow{
+    transition: all 0.3s linear;
+    margin-left: 10px;
+    transform: translateX(0);
+}
+.item_btn2{
+    color: rgb(237, 81, 32) !important;
+    fill: rgb(237, 81, 32) !important;
+}
+.item_btn3{
+    color: rgb(100, 68, 248) !important;
+    fill: rgb(100, 68, 248) !important;
+}
+.product_item_btn:hover .svg_arrow{
+    transform: translateX(10px);
+}
+.product_btn {
+    max-width: 161px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.product_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+
+/* ========================
+==========================
+   our product section
+==========================
+==========================*/
